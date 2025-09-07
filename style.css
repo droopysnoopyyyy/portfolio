@@ -1,0 +1,115 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      color: #e6edf3;
+      background: url("c6280e8f909cdaa96f599f4b611e876c.jpg");
+      background-size: cover;
+      scroll-behavior: smooth;
+    }
+    a {
+      color: #00f5d4;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #00c9a7;
+    }
+    header {
+      background: #161b22;
+      padding: 15px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1000px;
+      margin: auto;
+    }
+    nav h1 {
+      font-size: 1.5rem;
+      color: #00f5d4;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav ul li {
+      display: inline;
+    }
+    section {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #00f5d4;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+    .card {
+      background: #161b22;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 10px;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      border-style: #00f5d4;
+      border-style: solid;
+    }
+    .contact p {
+      margin: 8px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #161b22;
+      margin-top: 40px;
+      color: #8b949e;
+    }
+    .picture-frame {
+        background: white;
+        height: 200px;
+        width: 200px;
+        border-radius: 200px;
+        display: flex;
+    }
+    #about {
+    padding: 50px;
+    color: white;
+    text-align: left;
+}
+    .about-container {
+        display: flex;               
+        justify-content: center;      
+        align-items: center;          
+        gap: 40px;                    
+        max-width: 1000px;           
+}
+
+    .about-container p {
+        flex: 1;                     
+        font-size: 18px;
+        line-height: 1.6;
+        text-align: left;
+    }
+
+    .picture-frame img {
+        width: 250px;                 
+        height: auto;
+        border-radius: 250px; 
+        border-color: #00f5d4;
+        border-style: solid;         
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
